@@ -107,7 +107,9 @@
   background: #c9bfbf;
 }
 
-#app .game .as_btn {
+#app .game a {
   margin-top: 20px;
+  font-weight: 500;
+  color: #00000090;
 }
 /*# sourceMappingURL=style.css.map */

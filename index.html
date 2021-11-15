@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>JS Game</title>
 </head>
-<body>
+<body onload="as_onload()">
+    <div id="as_load"></div>
     <div id="app">
         <div class="game">
             <h2>Rock Paper Scissor</h2>
@@ -24,13 +25,14 @@
                 </div>
             </div>
             <div class="game_options"></div>
-
-            <div class="as_btn">
-                <a href="#">Share Result</a>
-            </div>
+            <a href="https://aziz-webdev.netlify.app">&copy Aziz Sobirov 15.11.2021</a>
         </div>
     </div>
 
+
+    <script src="https://aziz-sobirov.github.io/AS-library/js/anime-min.js"></script>
     <script src="./js/app.js"></script>
+    <script src="./js/players.js"></script>
+    <script src="https://aziz-sobirov.github.io/AS-library/js/as.js"></script>
 </body>
 </html>
